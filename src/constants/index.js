@@ -19,9 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  todo,
+  temp,
+  calc,
   threejs,
 } from "../assets";
 
@@ -198,58 +198,58 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "To-Do List",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A very simple To-Do List in JavaScript",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/gits-up",
+    image: todo,
+    source_code_link: "https://github.com/gits-up/simple_to-do_list",
   },
   {
-    name: "Job IT",
+    name: "Temperature Convertor",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A very simple and clean temperature convertor with support of dark mode.",
     tags: [
       {
-        name: "react",
+        name: "css",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "html",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/gits-up",
+    image: temp,
+    source_code_link: "https://github.com/gits-up/temp-conversion",
   },
   {
-    name: "Trip Guide",
+    name: "Basic Calculator",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A minimalistic clean simple calculator.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +257,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/gits-up",
+    image: calc,
+    source_code_link: "https://github.com/gits-up/Simple_Calculator",
   },
 ];
 
